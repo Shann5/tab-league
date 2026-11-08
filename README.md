@@ -8,7 +8,7 @@ A local-first archive, deadline desk and graph of everything you had open.
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white) ![Runtime dependencies: none](https://img.shields.io/badge/runtime%20deps-none-brightgreen) ![macOS + Chrome](https://img.shields.io/badge/macOS-Chrome-lightgrey?logo=googlechrome&logoColor=white) ![Local-first](https://img.shields.io/badge/local--first-no%20accounts%2C%20no%20cloud-8A2BE2)
 
-[Quick start](#quick-start) · [Features](#features) · [Screenshots](#screenshots) · [Use your own tabs](#use-it-on-your-own-tabs) · [How it works](#how-it-works) · [Notes for agents](#keeping-notes-for-your-agents) · [Roadmap](IDEAS.md)
+[Set up with your agent](#set-it-up-with-your-agent) · [Quick start](#quick-start) · [Features](#features) · [Screenshots](#screenshots) · [Use your own tabs](#use-it-on-your-own-tabs) · [How it works](#how-it-works) · [Notes for agents](#keeping-notes-for-your-agents) · [Roadmap](IDEAS.md)
 
 <br>
 
@@ -53,9 +53,50 @@ can go.
 
 <sub>All screenshots show the fictional demo snapshot that ships with the repo.</sub>
 
+## Set it up with your agent
+
+The easiest way in: paste this into Claude Code, Codex, Cursor or any coding agent that can run commands. It tries
+the demo first, then asks before it looks at your real tabs.
+
+```text
+Set up tab-league for me: https://github.com/Shann5/tab-league
+It's a local-first tool that files my open Chrome tabs into an archive, so I can close them.
+
+1. Check what I have and tell me what's missing: macOS, Google Chrome, git, and Python 3.10 or newer.
+2. Clone the repo to ~/tab-league (if that folder already exists, ask me first). Read its AGENTS.md
+   before you change anything.
+3. Show me the demo: run `python3 demo.py`, then start the server so it keeps running after this chat:
+   cd ~/tab-league && nohup python3 serve.py > serve.log 2>&1 &
+   If port 8765 is already taken, tell me what is using it; don't stop it. Then give me
+   http://localhost:8765 to open.
+4. Stop here and ask whether I want it on my real tabs. If I say yes:
+   a. Run `python3 snss.py` to snapshot my Chrome tabs into data/tabs.json.
+   b. Read the titles and URLs. Replace TOPICS in organize.py with topics for my tabs (dead pages and
+      logins go in a "Close" area). Show me the topics and let me adjust them.
+   c. Replace the lists in desk.py from my tabs: forms with deadlines (check the dates on the live pages),
+      rolling forms, job applications, reading shelves.
+   d. Ask me before running `python3 fetch_meta.py`: it visits each page once to get its description.
+   e. Rebuild with `python3 organize.py && python3 desk.py && python3 graph.py && python3 search.py`,
+      restart the server, and tell me what to look at first.
+   f. Commit my organize.py and desk.py on a local branch named "mine", so I can pull updates later
+      without losing them. Never push that branch.
+5. Rules for the whole session: data/ and out/*.html are my browsing history. Never commit them, paste
+   them into an issue, or send them to any website. Don't press the "close its tab" buttons yourself.
+6. At the end, ask whether to start it at login (`python3 serve.py --install`).
+```
+
+Worth knowing before you paste it:
+
+- **Your agent will read your tab titles and URLs** in step 4. They go to your agent's model provider, like
+  anything else in the chat. Page contents are only fetched in step 4d, and only if you say yes.
+- **The first time you close a tab from a page**, macOS asks whether to let the server control Google Chrome.
+  Allow it, or the close buttons won't work.
+- **To update later**, ask your agent: *"In ~/tab-league, pull the latest tab-league into my 'mine' branch,
+  rebuild the pages and restart serve.py."*
+
 ## Quick start
 
-Needs macOS (for the Chrome integration; the views themselves work anywhere) and Python 3.10+.
+Prefer to do it by hand? Needs macOS (for the Chrome integration; the views themselves work anywhere) and Python 3.10+.
 
 ```sh
 git clone https://github.com/Shann5/tab-league && cd tab-league
