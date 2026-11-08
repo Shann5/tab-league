@@ -14,5 +14,5 @@
     "typescript": "latest"
   },
   "license": "MIT",
-  "description": "Make closing browser tabs safe: a local-first archive and graph of your tabs"
+  "description": "Close your Chrome tabs without losing the thought: a local-first archive, deadline desk and graph of everything you had open"
 }
