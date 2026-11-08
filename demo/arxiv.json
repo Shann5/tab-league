@@ -1,0 +1,20 @@
+{
+ "2302.01318": {
+  "title": "Accelerating Large Language Model Decoding with Speculative Sampling",
+  "authors": "Charlie Chen et al.",
+  "year": "2023",
+  "abstract": "A draft model proposes several tokens that the large model then checks in parallel; a modified rejection sampling scheme keeps the target distribution, so decoding gets faster without changing outputs."
+ },
+ "2401.15077": {
+  "title": "EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty",
+  "authors": "Yuhui Li et al.",
+  "year": "2024",
+  "abstract": "Drafting at the feature level instead of the token level, with the next token as extra input, gives a cheaper and more accurate draft for speculative sampling."
+ },
+ "2210.03629": {
+  "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+  "authors": "Shunyu Yao et al.",
+  "year": "2022",
+  "abstract": "Interleaving reasoning traces with actions lets a language model plan, call tools and update its plan from what it observes."
+ }
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tab League</title>
+  <link rel="stylesheet" href="panel.css">
+</head>
+<body>
+  <header>
+    <input id="q" type="search" placeholder="Search saved pages…" autocomplete="off">
+    <div id="stats"></div>
+  </header>
+  <section id="inbox"></section>
+  <main id="topics"></main>
+  <footer>
+    <button id="newTopic">+ New topic</button>
+    <button id="export">Export backup</button>
+  </footer>
+  <template id="topicRow">
+    <div class="topic">
+      <div class="row">
+        <button class="name"></button>
+        <span class="count"></span>
+        <button class="open" title="Reopen this topic as a tab group">Open</button>
+        <button class="park" title="Save drafts and close these tabs">Park</button>
+      </div>
+      <ul class="pages"></ul>
+    </div>
+  </template>
+  <script type="module" src="panel.js"></script>
+</body>
+</html>

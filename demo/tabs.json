@@ -1,0 +1,194 @@
+[
+ [
+  "Default",
+  1001,
+  "https://arxiv.org/abs/2302.01318",
+  "Accelerating Large Language Model Decoding with Speculative Sampling"
+ ],
+ [
+  "Default",
+  1001,
+  "https://arxiv.org/abs/2401.15077",
+  "EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty"
+ ],
+ [
+  "Default",
+  1001,
+  "https://arxiv.org/pdf/2401.15077v2",
+  "2401.15077v2.pdf"
+ ],
+ [
+  "Default",
+  1001,
+  "https://arxiv.org/abs/2210.03629",
+  "ReAct: Synergizing Reasoning and Acting in Language Models"
+ ],
+ [
+  "Default",
+  1001,
+  "https://github.com/example-org/tiny-agent",
+  "example-org/tiny-agent: an agent loop in 200 lines"
+ ],
+ [
+  "Default",
+  1001,
+  "https://developer.mozilla.org/en-US/docs/Web/API/URL",
+  "URL - Web APIs | MDN"
+ ],
+ [
+  "Default",
+  1001,
+  "https://developer.chrome.com/docs/extensions/reference/api/tabs",
+  "chrome.tabs | API | Chrome for Developers"
+ ],
+ [
+  "Default",
+  1001,
+  "https://news.ycombinator.com/item?id=40000000",
+  "Ask HN: How do you manage hundreds of open tabs?"
+ ],
+ [
+  "Default",
+  1002,
+  "https://grants.example.com/indie-ai-fund",
+  "Indie AI Builders Fund — apply"
+ ],
+ [
+  "Default",
+  1002,
+  "https://hack.example.org/open-agents-2031",
+  "Open Agents Hackathon 2031 — register"
+ ],
+ [
+  "Default",
+  1002,
+  "https://conf.example.org/local-first-2031/cfp",
+  "Local-First Conf 2031 — call for talks"
+ ],
+ [
+  "Default",
+  1002,
+  "https://meetup.example.net/lisbon-ai/sept",
+  "Lisbon AI Meetup · Sep 15, 2026 · talks and demos"
+ ],
+ [
+  "Default",
+  1002,
+  "https://events.example.net/winter-demo-night",
+  "Winter Demo Night — RSVP"
+ ],
+ [
+  "Default",
+  1002,
+  "https://events.example.net/spring-brunch",
+  "Spring Builders Brunch"
+ ],
+ [
+  "Default",
+  1003,
+  "https://hotel-alfama.example.com/booking/AB12",
+  "Hotel Alfama — your booking"
+ ],
+ [
+  "Default",
+  1003,
+  "https://tilemuseum.example.com/tickets",
+  "National Tile Museum — tickets"
+ ],
+ [
+  "Default",
+  1002,
+  "https://x.com/mira_okafor_demo",
+  "Mira Okafor (@mira_okafor_demo) / X"
+ ],
+ [
+  "Default",
+  1002,
+  "https://www.linkedin.com/in/mira-okafor-demo/",
+  "Mira Okafor - Research Engineer | LinkedIn"
+ ],
+ [
+  "Default",
+  1002,
+  "https://github.com/jonas-berg-demo",
+  "jonas-berg-demo (Jonas Berg) · GitHub"
+ ],
+ [
+  "Default",
+  1002,
+  "https://scholar.google.com/citations?user=DEMO123&hl=en",
+  "Lena Fischer - Google Scholar"
+ ],
+ [
+  "Default",
+  1003,
+  "https://www.youtube.com/watch?v=demo-memory-talk",
+  "How browsers manage memory (conference talk) - YouTube"
+ ],
+ [
+  "Default",
+  1003,
+  "https://blog.example.com/local-first-five-years-on",
+  "Local-first software, five years on"
+ ],
+ [
+  "Default",
+  1003,
+  "https://blog.example.com/attention-not-storage",
+  "Attention, not storage, is the scarce resource"
+ ],
+ [
+  "Default",
+  1003,
+  "https://mail.google.com/mail/u/0/#inbox",
+  "Inbox"
+ ],
+ [
+  "Default",
+  1003,
+  "https://calendar.google.com/calendar/r",
+  "Calendar"
+ ],
+ [
+  "Default",
+  1003,
+  "https://app.example.com/login",
+  "Sign in"
+ ],
+ [
+  "Default",
+  1003,
+  "https://old.example.com/moved-page",
+  "Page not found"
+ ],
+ [
+  "Work",
+  1001,
+  "https://jobs.example.com/roles/frontend-engineer",
+  "Frontend Engineer — Example Co"
+ ],
+ [
+  "Work",
+  1001,
+  "https://jobs.example.com/roles/ml-infra",
+  "ML Infrastructure Engineer — Example Labs"
+ ],
+ [
+  "Default",
+  1002,
+  "https://github.com/example-org/tiny-agent",
+  "example-org/tiny-agent: an agent loop in 200 lines"
+ ],
+ [
+  "Default",
+  1002,
+  "https://hack.example.org/fall-2025/results",
+  "Fall 2025 Hackathon — results"
+ ],
+ [
+  "Default",
+  1002,
+  "https://forms.example.com/beta-feedback",
+  "Beta feedback form"
+ ]
+]

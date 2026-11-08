@@ -1,0 +1,7 @@
+node_modules/
+__pycache__/
+.claude/worktrees/
+screenshots/
+# Your snapshot and the pages built from it hold your browsing history: never commit them.
+data/
+out/*.html

@@ -1,0 +1,42 @@
+{
+ "https://grants.example.com/indie-ai-fund": {
+  "desc": "Small grants for independent builders of open AI tools. Applications reviewed monthly.",
+  "dates": [],
+  "words": 600
+ },
+ "https://hack.example.org/open-agents-2031": {
+  "desc": "A two-week online hackathon for open-source agents.",
+  "dates": [],
+  "words": 900
+ },
+ "https://conf.example.org/local-first-2031/cfp": {
+  "desc": "We welcome talks on local-first apps, sync and privacy.",
+  "dates": [],
+  "words": 700
+ },
+ "https://events.example.net/winter-demo-night": {
+  "desc": "Join us on March 3, 2031 for an evening of short demos and good coffee.",
+  "dates": [],
+  "words": 300
+ },
+ "https://events.example.net/spring-brunch": {
+  "desc": "Held April 12, 2025 at the old library: builders, pastries and show-and-tell.",
+  "dates": [],
+  "words": 250
+ },
+ "https://blog.example.com/local-first-five-years-on": {
+  "desc": "What held up, what didn't, and what we would build differently.",
+  "dates": [],
+  "words": 3200
+ },
+ "https://blog.example.com/attention-not-storage": {
+  "desc": "Saving everything is cheap; deciding what deserves your attention is not.",
+  "dates": [],
+  "words": 1800
+ },
+ "https://developer.chrome.com/docs/extensions/reference/api/tabs": {
+  "desc": "Use the chrome.tabs API to interact with the browser's tab system.",
+  "dates": [],
+  "words": 5000
+ }
+}

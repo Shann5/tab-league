@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Tab League",
+  "version": "0.1.0",
+  "description": "Park and reopen tabs by topic. Remembers drafts and scroll position, and reminds you where a page is saved when you come back to it.",
+  "minimum_chrome_version": "117",
+  "permissions": ["tabs", "tabGroups", "storage", "unlimitedStorage", "scripting", "sidePanel", "favicon"],
+  "host_permissions": ["<all_urls>"],
+  "background": { "service_worker": "sw.js", "type": "module" },
+  "side_panel": { "default_path": "panel.html" },
+  "action": { "default_title": "Tab League" }
+}
